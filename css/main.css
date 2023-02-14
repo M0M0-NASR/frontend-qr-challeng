@@ -1,0 +1,19 @@
+:root {
+  --gray: hsl(212, 45%, 89%);
+  --blue: hsl(220, 15%, 55%);
+  --Darkblue: hsl(218, 44%, 22%);
+}
+
+@font-face {
+  src: url("https://fonts.google.com/specimen/Outfit");
+}
+
+body {
+  background-color: var(--gray);
+}
+h5 {
+  color: var(--Darkblue) !important;
+}
+p {
+  color: var(--blue) !important;
+}
